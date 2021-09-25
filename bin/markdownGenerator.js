@@ -1,18 +1,18 @@
 function generateVideo(data) {
-    if (data.youtube_id) {
-        return `
+  if (data.youtube_id) {
+    return `
 ### Video - ${data.heading}
 [![Youtube Video, how to use ${data.heading}](https://img.youtube.com/vi/${youtube_id}/0.jpg)](https://www.youtube.com/watch?v=${youtube_id})
 `;
-    }
+  }
 
-    return '';
+  return '';
 }
 
 function generateMarkdown(data) {
-    const video = generateVideo(data);
+  const video = generateVideo(data);
 
-    return ` 
+  return ` 
 # ${data.heading}
 
 ## 📄 Description
@@ -46,7 +46,7 @@ Generously distributed under the *${data.license}*
 <!-- GitHub's Markdown reference links -->
 [twitter-image]: https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
 [github-image]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
-`
+`;
 }
 
 module.exports = generateMarkdown;
