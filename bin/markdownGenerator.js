@@ -30,7 +30,7 @@ ${video}
 
 ## 😋 Who cooked it?
 
-[![${data.author}](https://avatars0.githubusercontent.com/u/1325411?s=200)](${data.website} "My personal website :-)")
+[![${data.author}](https://avatars0.githubusercontent.com/u/1325411?s=200)](${data.website} "${data.author} personal website")
 
 
 [![@${data.twitter}][twitter-image]](https://twitter.com/${data.twitter}) [![${data.github}][github-image]](https://github.com/${data.github})

@@ -2,7 +2,7 @@
 
 ## 📄 Description
 
-A simple way to generate your README file for your next GitHub project 🤗
+A very simple &amp; quick way to generate your README file for your next GitHub project 🤗
 
 ## 🛠 Installation
 
@@ -16,9 +16,9 @@ npx github-readme-generator
 
 ## 😋 Who cooked it?
 
-[![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://ph7.me "My personal website :-)")
+[![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://ph7.me 'My personal website :-)')
 
-[![@phenrysay][twitter-image]](https://twitter.com/phenrysay) [![pH-7][github-image]](https://github.com/ph-7)
+[![@phenrysay][twitter-image]](https://twitter.com/phenrysay) [![pH-7][github-image]](https://github.com/pH-7)
 
 **[Pierre-Henry Soria](https://ph7.me)**, a highly pragmatic passionate, zen &amp; cool software engineer 😊
 
