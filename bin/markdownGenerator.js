@@ -20,9 +20,9 @@ ${data.usage}
 [![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](${data.website} "My personal website :-)")
 
 
-[![@${data.twitter}][twitter-image]][https://twitter.com/${data.twitter}] [![${data.github}][github-image]][https://github.com/${data.github}]
+[![@${data.twitter}][twitter-image]](https://twitter.com/${data.twitter}) [![${data.github}][github-image]](https://github.com/${data.github})
 
-**[Pierre-Henry Soria][${data.website}]**, a highly pragmatic passionate, zen &amp; cool software engineer 😊
+**[Pierre-Henry Soria](${data.website})**, a highly pragmatic passionate, zen &amp; cool software engineer 😊
 
 
 ## ⚖️ License

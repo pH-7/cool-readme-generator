@@ -1,14 +1,20 @@
 {
   "name": "readme-generator",
   "version": "1.0.0",
-  "description": "Generate easily a README file for your next new project",
-  "main": "index.js",
+  "description": "Generate easily a README file for your next new project.",
+  "main": "./bin/cmd.js",
+  "bin": {
+    "readme-generator": "./bin/cmd.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/cmd.js"
   },
   "keywords": [
-    "readme"
+    "readme", "generate readme file", "github", "generate readme"
   ],
   "author": "Pierre-Henry Soria",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.1.5"
+  }
 }
