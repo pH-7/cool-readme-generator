@@ -6,12 +6,12 @@ A simple way to generate your README file for your next GitHub project 🤗
 
 ## 🛠 Installation
 
-If you edit the script on your machine, you will have to run `npm link` to locally _symlink_ the package, and then run `readme-generator` in your terminal.
+If you edit the script on your machine, you will have to run `npm link` to locally _symlink_ the package, and then run `github-readme-generator` in your terminal.
 
 ## 🎮 Usage
 
 ```bash
-npx readme-generator
+npx github-readme-generator
 ```
 
 ## 😋 Who cooked it?
