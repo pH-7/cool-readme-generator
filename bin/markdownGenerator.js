@@ -1,7 +1,19 @@
+function generateVideo(data) {
+    if (data.youtube_id) {
+        return `
+### Video - ${data.heading}
+[![Youtube Video, how to use ${data.heading}](https://img.youtube.com/vi/${youtube_id}/0.jpg)](https://www.youtube.com/watch?v=${youtube_id})
+`;
+    }
+
+    return '';
+}
+
 function generateMarkdown(data) {
+    const video = generateVideo(data);
+
     return ` 
 # ${data.heading}
-
 
 ## 📄 Description
 ${data.description}
@@ -14,6 +26,7 @@ ${data.installation}
 ## 🎮 Usage
 ${data.usage}
 
+${video}
 
 ## 😋 Who cooked it?
 

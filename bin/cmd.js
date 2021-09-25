@@ -22,6 +22,11 @@ inquirer
     },
     {
         type: 'input',
+        message: 'YouTube Video ID? (optional)',
+        name: 'youtube_id',
+    },
+    {
+        type: 'input',
         message: 'Installation requirements?',
         name: 'installation',
     },
