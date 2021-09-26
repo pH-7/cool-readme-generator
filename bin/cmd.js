@@ -43,7 +43,7 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Your Email?',
+      message: 'Your Email? (also used for gravatar profile photo)',
       name: 'email',
       default: 'hi@ph7.me',
     },

@@ -1,3 +1,7 @@
+const { url: gravatarUrl } = require('gravatar');
+
+const GRAVATAR_SIZE = 200;
+
 function generateVideo({ youtube_id, heading }) {
   if (youtube_id) {
     return `
@@ -11,6 +15,7 @@ function generateVideo({ youtube_id, heading }) {
 
 function generateMarkdown(data) {
   const video = generateVideo(data);
+  const profilePhotoUrl = gravatarUrl(data.email, { protocol: 'https', s: GRAVATAR_SIZE });
 
   return ` 
 # ${data.heading}
@@ -30,7 +35,7 @@ ${video}
 
 ## 😋 Who cooked it?
 
-[![${data.author}](https://avatars0.githubusercontent.com/u/1325411?s=200)](${data.website} "${data.author} personal website")
+[![${data.author}](${profilePhotoUrl})](${data.website} "${data.author} personal website")
 
 
 [![@${data.twitter}][twitter-image]](https://twitter.com/${data.twitter}) [![${data.github}][github-image]](https://github.com/${data.github})

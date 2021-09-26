@@ -18,6 +18,7 @@
   "author": "Pierre-Henry Soria",
   "license": "MIT",
   "dependencies": {
+    "gravatar": "^1.8.2",
     "inquirer": "^8.1.5"
   }
 }
