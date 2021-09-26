@@ -1,8 +1,8 @@
-function generateVideo(data) {
-  if (data.youtube_id) {
+function generateVideo({ youtube_id, heading }) {
+  if (youtube_id) {
     return `
-### Video - ${data.heading}
-[![Youtube Video, how to use ${data.heading}](https://img.youtube.com/vi/${youtube_id}/0.jpg)](https://www.youtube.com/watch?v=${youtube_id})
+### Video - ${heading}
+[![Youtube Video, how to use ${heading}](https://img.youtube.com/vi/${youtube_id}/0.jpg)](https://www.youtube.com/watch?v=${youtube_id})
 `;
   }
 
