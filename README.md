@@ -2,7 +2,9 @@
 
 ## 📄 Description
 
-A very simple &amp; quick way to generate your README file for your next GitHub project 🤗
+A very simple &amp; quick way to generate outstanding README files for your next GitHub project 🚀
+
+The generated README files are highly **optimized for SEO** and **eye-catching for your readers** 🥳
 
 ## 🛠 Installation
 
