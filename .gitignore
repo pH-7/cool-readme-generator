@@ -1,3 +1,7 @@
+# Exclude generated README files in tmp folder
+tmp/*
+!tmp/.gitkeep
+
 package-lock.json
 
 # Logs
