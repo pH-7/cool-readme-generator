@@ -74,11 +74,11 @@ inquirer
     },
   ])
   .then((data) => {
-    const fullReadmePath = path.resolve(__dirname, `../${README_FILENAME}`);
+    const fullReadmePath = path.resolve(__dirname, `../tmp/${README_FILENAME}`);
 
     fs.writeFile(fullReadmePath, generateMarkdown(data), (err) =>
       err
         ? console.log(err)
-        : console.log(`Your ${README_FILENAME} has been generated at: ${fullReadmePath}! 🚀`)
+        : console.log(`Your ${README_FILENAME} has been generated at ${fullReadmePath}! 🚀`)
     );
   });
