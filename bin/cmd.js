@@ -4,7 +4,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 
-const README_FILENAME = 'README.md';
+const fileNameSuffix = Math.floor(Math.random() * 99);
+const README_FILENAME = `README-${fileNameSuffix}.md`;
 
 const generateMarkdown = require('./markdownGenerator');
 
