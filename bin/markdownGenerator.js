@@ -2,6 +2,28 @@ const { url: gravatarUrl } = require('gravatar');
 
 const GRAVATAR_SIZE = 200;
 
+function getLicenseLink({ license }) {
+  switch (license) {
+    case 'MIT':
+      return 'https://opensource.org/licenses/MIT';
+
+    case 'GPL':
+      return 'https://www.gnu.org/licenses/gpl.html';
+
+    case 'ISC':
+      return 'https://opensource.org/licenses/ISC';
+
+    case 'MPL':
+      return 'https://www.mozilla.org/en-US/MPL/';
+
+    case 'AGPL':
+      return 'https://www.gnu.org/licenses/agpl.html';
+
+    default:
+      return 'https://opensource.org/licenses/';
+  }
+}
+
 function generateVideo({ youtube_id, name }) {
   if (youtube_id) {
     return `
@@ -16,6 +38,7 @@ function generateVideo({ youtube_id, name }) {
 function generateMarkdown(data) {
   const video = generateVideo(data);
   const profilePhotoUrl = gravatarUrl(data.email, { protocol: 'https', s: GRAVATAR_SIZE });
+  const licenseLink = getLicenseLink(data);
 
   return ` 
 # ${data.heading}
@@ -45,7 +68,7 @@ ${video}
 
 ## ⚖️ License
 
-**${data.name}** is generously distributed under the *${data.license}*
+**${data.name}** is generously distributed under the *[${data.license}](${licenseLink})*.
 
 
 <!-- GitHub's Markdown reference links -->
