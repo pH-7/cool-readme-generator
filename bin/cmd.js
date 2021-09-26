@@ -13,6 +13,11 @@ inquirer
   .prompt([
     {
       type: 'input',
+      message: 'Project name',
+      name: 'name',
+    },
+    {
+      type: 'input',
       message: 'README Heading',
       name: 'heading',
     },

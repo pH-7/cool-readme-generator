@@ -2,11 +2,11 @@ const { url: gravatarUrl } = require('gravatar');
 
 const GRAVATAR_SIZE = 200;
 
-function generateVideo({ youtube_id, heading }) {
+function generateVideo({ youtube_id, name }) {
   if (youtube_id) {
     return `
-### Video - ${heading}
-[![Youtube Video, how to use ${heading}](https://img.youtube.com/vi/${youtube_id}/0.jpg)](https://www.youtube.com/watch?v=${youtube_id})
+### Video - ${name}
+[![Youtube Video, how to use ${name}](https://img.youtube.com/vi/${youtube_id}/0.jpg)](https://www.youtube.com/watch?v=${youtube_id})
 `;
   }
 
@@ -45,7 +45,7 @@ ${video}
 
 ## ⚖️ License
 
-Generously distributed under the *${data.license}*
+**${data.name}** is generously distributed under the *${data.license}*
 
 
 <!-- GitHub's Markdown reference links -->
