@@ -41,7 +41,9 @@ function generateMarkdown(data) {
   const licenseLink = getLicenseLink(data);
 
   return ` 
-# ${data.heading}
+# ${data.name}
+
+### *${data.heading}*
 
 ## 📄 Description
 ${data.description}
