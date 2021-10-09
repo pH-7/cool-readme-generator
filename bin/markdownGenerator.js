@@ -47,8 +47,8 @@ function generateMarkdown(data) {
 ${data.description}
 
 
-## 🛠 Installation
-${data.installation}
+## ⚙️ Requirements
+${data.requirements}
 
 
 ## 🎮 Usage

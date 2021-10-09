@@ -33,8 +33,8 @@ inquirer
     },
     {
       type: 'input',
-      message: 'Installation requirements?',
-      name: 'installation',
+      message: 'Requirements?',
+      name: 'requirements',
     },
     {
       type: 'input',
