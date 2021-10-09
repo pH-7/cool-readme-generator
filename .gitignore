@@ -2,7 +2,11 @@
 tmp/*
 !tmp/.gitkeep
 
+# NPM lock file
 package-lock.json
+
+# OS attribute files
+.DS_Store
 
 # Logs
 logs
