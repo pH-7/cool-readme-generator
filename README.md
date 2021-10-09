@@ -16,6 +16,8 @@ If you edit the script on your machine, you will have to run `npm link` to local
 npx github-readme-generator
 ```
 
+![GitHub README File Generator](github-readme-generator-usage.png)
+
 ## 😋 Who cooked it?
 
 [![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://ph7.me 'My personal website :-)')
