@@ -2,23 +2,34 @@
   "name": "github-readme-generator",
   "version": "1.3.0",
   "description": "Generate easily a README file for your next new project.",
-  "main": "./bin/cmd.js",
+  "main": "bin/cmd.js",
   "bin": {
-    "github-readme-generator": "./bin/cmd.js"
+    "github-readme-generator": "bin/cmd.js"
   },
   "scripts": {
-    "start": "node ./bin/cmd.js"
+    "start": "node bin/cmd.js",
+    "lint": "eslint bin",
+    "prettier": "prettier \"**/*.{js,md}\"",
+    "prettier:check": "npm run prettier -- --check",
+    "prettier:fix": "npm run prettier -- --write"
   },
   "keywords": [
     "readme",
     "generate readme file",
     "github",
-    "generate readme"
+    "generate readme",
+    "readme template",
+    'md generator",
+    "readme generator",
+    "github readme"
   ],
-  "author": "Pierre-Henry Soria",
-  "license": "MIT",
   "dependencies": {
     "gravatar": "^1.8.2",
     "inquirer": "^8.1.5"
+  },
+  "author": "Pierre-Henry Soria",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pH-7/cool-readme-generator/issues"
   }
 }
