@@ -29,6 +29,11 @@
   },
   "author": "Pierre-Henry Soria",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pH-7/cool-readme-generator.git"
+  },
+  "homepage": "https://github.com/pH-7/cool-readme-generator#readme",
   "bugs": {
     "url": "https://github.com/pH-7/cool-readme-generator/issues"
   }
