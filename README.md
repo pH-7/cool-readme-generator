@@ -26,19 +26,17 @@ npx github-readme-generator
 
 **[Pierre-Henry Soria](https://ph7.me)**, a highly pragmatic passionate, zen &amp; cool software engineer 😊
 
-## ⚖️ License
-
-Generously distributed under the _[MIT](https://opensource.org/licenses/MIT)_ 🎉
-
 ## :tv: Video
 
 [![Watch the video](https://i1.ytimg.com/vi/knK7JMwxl3M/sddefault.jpg)](https://www.youtube.com/watch?v=knK7JMwxl3M)
 
-👉 **[Click here to watch on YouTube](https://www.youtube.com/watch?v=knK7JMwxl3M)**
+## ⚖️ License
+
+Generously distributed under the _[MIT](https://opensource.org/licenses/MIT)_ 
+👉 **[Click here to watch on YouTube](https://www.youtube.com/watch?v=knK7JMwxl3M)** 🎉
 
 
 <!-- GitHub's Markdown reference links -->
-
 [twitter-image]: https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white
 [github-image]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 
