@@ -21,6 +21,13 @@ npx github-readme-generator
 ![GitHub README File Generator](github-readme-generator-usage.png)
 
 
+## :tv: Video
+
+[![Watch the video](https://i1.ytimg.com/vi/knK7JMwxl3M/sddefault.jpg)](https://www.youtube.com/watch?v=knK7JMwxl3M)
+
+👉 **[Click here to watch on YouTube](https://www.youtube.com/watch?v=knK7JMwxl3M)** 🎉
+
+
 ## 😋 Who cooked it?
 
 [![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://ph7.me 'My personal website :-)')
@@ -28,13 +35,6 @@ npx github-readme-generator
 [![@phenrysay][twitter-image]](https://twitter.com/phenrysay) [![pH-7][github-image]](https://github.com/pH-7)
 
 **[Pierre-Henry Soria](https://ph7.me)**, a highly pragmatic passionate, zen &amp; cool software engineer 😊
-
-
-## :tv: Video
-
-[![Watch the video](https://i1.ytimg.com/vi/knK7JMwxl3M/sddefault.jpg)](https://www.youtube.com/watch?v=knK7JMwxl3M)
-
-👉 **[Click here to watch on YouTube](https://www.youtube.com/watch?v=knK7JMwxl3M)** 🎉
 
 
 ## ⚖️ License
