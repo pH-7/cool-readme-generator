@@ -6,9 +6,11 @@ A very simple &amp; quick way to generate outstanding README files for your next
 
 The generated README files are highly **optimized for SEO** and **eye-catching for your readers** 🥳
 
+
 ## 🛠 Installation
 
 If you edit the script on your machine, you will have to run `npm link` to locally _symlink_ the package, and then run `github-readme-generator` in your terminal.
+
 
 ## 🎮 Usage
 
@@ -18,6 +20,7 @@ npx github-readme-generator
 
 ![GitHub README File Generator](github-readme-generator-usage.png)
 
+
 ## 😋 Who cooked it?
 
 [![Pierre-Henry Soria](https://avatars0.githubusercontent.com/u/1325411?s=200)](https://ph7.me 'My personal website :-)')
@@ -26,14 +29,17 @@ npx github-readme-generator
 
 **[Pierre-Henry Soria](https://ph7.me)**, a highly pragmatic passionate, zen &amp; cool software engineer 😊
 
+
 ## :tv: Video
 
 [![Watch the video](https://i1.ytimg.com/vi/knK7JMwxl3M/sddefault.jpg)](https://www.youtube.com/watch?v=knK7JMwxl3M)
 
+👉 **[Click here to watch on YouTube](https://www.youtube.com/watch?v=knK7JMwxl3M)** 🎉
+
+
 ## ⚖️ License
 
 Generously distributed under the _[MIT](https://opensource.org/licenses/MIT)_ 
-👉 **[Click here to watch on YouTube](https://www.youtube.com/watch?v=knK7JMwxl3M)** 🎉
 
 
 <!-- GitHub's Markdown reference links -->
