@@ -39,7 +39,7 @@ npx github-readme-generator
 
 ## ⚖️ License
 
-Generously distributed under the _[MIT](https://opensource.org/licenses/MIT)_ 
+Generously distributed under the _[MIT](https://opensource.org/licenses/MIT)_
 
 
 <!-- GitHub's Markdown reference links -->
